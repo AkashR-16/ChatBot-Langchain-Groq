@@ -45,7 +45,7 @@ This project demonstrates a simple implementation of a chatbot using **Streamlit
 2. Text Splitting: The documents are split into smaller chunks using RecursiveCharacterTextSplitter.
 3. Vector Store: FAISS indexes the document chunks for efficient retrieval.
 4. Chatbot Workflow:
-      A user's query is passed through the retrieval chain.
-      Relevant chunks are retrieved and used as context for generating the response.
+   - A user's query is passed through the retrieval chain.
+   - Relevant chunks are retrieved and used as context for generating the response.
 5. LLM Integration: ChatGroq generates responses using the retrieved context.
 
